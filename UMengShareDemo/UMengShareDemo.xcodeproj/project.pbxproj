@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2657DB5C1D0FC95600121CA4 /* YQUmengManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2657DB5B1D0FC95600121CA4 /* YQUmengManager.m */; };
+		2657DB5F1D0FD3C900121CA4 /* UIViewController+YQUMeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 2657DB5E1D0FD3C900121CA4 /* UIViewController+YQUMeng.m */; };
+		2657DB611D0FE63D00121CA4 /* a904aa2bb15e6ca02e796130d652f13f.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2657DB601D0FE63D00121CA4 /* a904aa2bb15e6ca02e796130d652f13f.gif */; };
+		2657DB671D0FFB9100121CA4 /* PWTShareSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2657DB641D0FFB9100121CA4 /* PWTShareSheetView.m */; };
+		2657DB681D0FFB9100121CA4 /* PWTSheetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2657DB661D0FFB9100121CA4 /* PWTSheetButton.m */; };
+		268893FD1D0F9FCF005F2EE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268893FC1D0F9FCF005F2EE5 /* main.m */; };
+		268894001D0F9FCF005F2EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268893FF1D0F9FCF005F2EE5 /* AppDelegate.m */; };
+		268894031D0F9FCF005F2EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268894021D0F9FCF005F2EE5 /* ViewController.m */; };
+		268894061D0F9FCF005F2EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268894041D0F9FCF005F2EE5 /* Main.storyboard */; };
+		268894081D0F9FCF005F2EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268894071D0F9FCF005F2EE5 /* Assets.xcassets */; };
+		2688940B1D0F9FCF005F2EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268894091D0F9FCF005F2EE5 /* LaunchScreen.storyboard */; };
+		268894161D0F9FD0005F2EE5 /* UMengShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268894151D0F9FD0005F2EE5 /* UMengShareDemoTests.m */; };
+		268894211D0F9FD0005F2EE5 /* UMengShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268894201D0F9FD0005F2EE5 /* UMengShareDemoUITests.m */; };
+		89FBDF4F10A362964BFFDA6D /* libPods-UMengShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D041C7D84523C04419782945 /* libPods-UMengShareDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		268894121D0F9FD0005F2EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268893F01D0F9FCF005F2EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268893F71D0F9FCF005F2EE5;
+			remoteInfo = UMengShareDemo;
+		};
+		2688941D1D0F9FD0005F2EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268893F01D0F9FCF005F2EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268893F71D0F9FCF005F2EE5;
+			remoteInfo = UMengShareDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2657DB5A1D0FC95600121CA4 /* YQUmengManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQUmengManager.h; sourceTree = "<group>"; };
+		2657DB5B1D0FC95600121CA4 /* YQUmengManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQUmengManager.m; sourceTree = "<group>"; };
+		2657DB5D1D0FD3C900121CA4 /* UIViewController+YQUMeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YQUMeng.h"; sourceTree = "<group>"; };
+		2657DB5E1D0FD3C900121CA4 /* UIViewController+YQUMeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YQUMeng.m"; sourceTree = "<group>"; };
+		2657DB601D0FE63D00121CA4 /* a904aa2bb15e6ca02e796130d652f13f.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a904aa2bb15e6ca02e796130d652f13f.gif; sourceTree = "<group>"; };
+		2657DB631D0FFB9100121CA4 /* PWTShareSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWTShareSheetView.h; sourceTree = "<group>"; };
+		2657DB641D0FFB9100121CA4 /* PWTShareSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWTShareSheetView.m; sourceTree = "<group>"; };
+		2657DB651D0FFB9100121CA4 /* PWTSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWTSheetButton.h; sourceTree = "<group>"; };
+		2657DB661D0FFB9100121CA4 /* PWTSheetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWTSheetButton.m; sourceTree = "<group>"; };
+		268893F81D0F9FCF005F2EE5 /* UMengShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMengShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268893FC1D0F9FCF005F2EE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		268893FE1D0F9FCF005F2EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		268893FF1D0F9FCF005F2EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		268894011D0F9FCF005F2EE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		268894021D0F9FCF005F2EE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		268894051D0F9FCF005F2EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		268894071D0F9FCF005F2EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2688940A1D0F9FCF005F2EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2688940C1D0F9FCF005F2EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268894111D0F9FD0005F2EE5 /* UMengShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268894151D0F9FD0005F2EE5 /* UMengShareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengShareDemoTests.m; sourceTree = "<group>"; };
+		268894171D0F9FD0005F2EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2688941C1D0F9FD0005F2EE5 /* UMengShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268894201D0F9FD0005F2EE5 /* UMengShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengShareDemoUITests.m; sourceTree = "<group>"; };
+		268894221D0F9FD0005F2EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416AC19D0C240BA8F50EF3FE /* Pods-UMengShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMengShareDemo/Pods-UMengShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B0DCEFB53E52FD7734CB087F /* Pods-UMengShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengShareDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMengShareDemo/Pods-UMengShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D041C7D84523C04419782945 /* libPods-UMengShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UMengShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268893F51D0F9FCF005F2EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FBDF4F10A362964BFFDA6D /* libPods-UMengShareDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2688940E1D0F9FD0005F2EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268894191D0F9FD0005F2EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2657DB591D0FC93A00121CA4 /* YQUMengManager */ = {
+			isa = PBXGroup;
+			children = (
+				2657DB621D0FFB9100121CA4 /* YQUMengShareSheetView */,
+				2657DB5A1D0FC95600121CA4 /* YQUmengManager.h */,
+				2657DB5B1D0FC95600121CA4 /* YQUmengManager.m */,
+				2657DB5D1D0FD3C900121CA4 /* UIViewController+YQUMeng.h */,
+				2657DB5E1D0FD3C900121CA4 /* UIViewController+YQUMeng.m */,
+			);
+			path = YQUMengManager;
+			sourceTree = "<group>";
+		};
+		2657DB621D0FFB9100121CA4 /* YQUMengShareSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				2657DB631D0FFB9100121CA4 /* PWTShareSheetView.h */,
+				2657DB641D0FFB9100121CA4 /* PWTShareSheetView.m */,
+				2657DB651D0FFB9100121CA4 /* PWTSheetButton.h */,
+				2657DB661D0FFB9100121CA4 /* PWTSheetButton.m */,
+			);
+			path = YQUMengShareSheetView;
+			sourceTree = "<group>";
+		};
+		268893EF1D0F9FCF005F2EE5 = {
+			isa = PBXGroup;
+			children = (
+				268893FA1D0F9FCF005F2EE5 /* UMengShareDemo */,
+				268894141D0F9FD0005F2EE5 /* UMengShareDemoTests */,
+				2688941F1D0F9FD0005F2EE5 /* UMengShareDemoUITests */,
+				268893F91D0F9FCF005F2EE5 /* Products */,
+				8BFA74F3EAEA96A3D9449EB7 /* Pods */,
+				9F51B0C62CC1647858E68341 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		268893F91D0F9FCF005F2EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268893F81D0F9FCF005F2EE5 /* UMengShareDemo.app */,
+				268894111D0F9FD0005F2EE5 /* UMengShareDemoTests.xctest */,
+				2688941C1D0F9FD0005F2EE5 /* UMengShareDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268893FA1D0F9FCF005F2EE5 /* UMengShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2657DB591D0FC93A00121CA4 /* YQUMengManager */,
+				268893FE1D0F9FCF005F2EE5 /* AppDelegate.h */,
+				268893FF1D0F9FCF005F2EE5 /* AppDelegate.m */,
+				268894011D0F9FCF005F2EE5 /* ViewController.h */,
+				268894021D0F9FCF005F2EE5 /* ViewController.m */,
+				268894041D0F9FCF005F2EE5 /* Main.storyboard */,
+				268894071D0F9FCF005F2EE5 /* Assets.xcassets */,
+				268894091D0F9FCF005F2EE5 /* LaunchScreen.storyboard */,
+				2688940C1D0F9FCF005F2EE5 /* Info.plist */,
+				2657DB601D0FE63D00121CA4 /* a904aa2bb15e6ca02e796130d652f13f.gif */,
+				268893FB1D0F9FCF005F2EE5 /* Supporting Files */,
+			);
+			path = UMengShareDemo;
+			sourceTree = "<group>";
+		};
+		268893FB1D0F9FCF005F2EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				268893FC1D0F9FCF005F2EE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		268894141D0F9FD0005F2EE5 /* UMengShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				268894151D0F9FD0005F2EE5 /* UMengShareDemoTests.m */,
+				268894171D0F9FD0005F2EE5 /* Info.plist */,
+			);
+			path = UMengShareDemoTests;
+			sourceTree = "<group>";
+		};
+		2688941F1D0F9FD0005F2EE5 /* UMengShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				268894201D0F9FD0005F2EE5 /* UMengShareDemoUITests.m */,
+				268894221D0F9FD0005F2EE5 /* Info.plist */,
+			);
+			path = UMengShareDemoUITests;
+			sourceTree = "<group>";
+		};
+		8BFA74F3EAEA96A3D9449EB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0DCEFB53E52FD7734CB087F /* Pods-UMengShareDemo.debug.xcconfig */,
+				416AC19D0C240BA8F50EF3FE /* Pods-UMengShareDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F51B0C62CC1647858E68341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D041C7D84523C04419782945 /* libPods-UMengShareDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268893F71D0F9FCF005F2EE5 /* UMengShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268894251D0F9FD0005F2EE5 /* Build configuration list for PBXNativeTarget "UMengShareDemo" */;
+			buildPhases = (
+				B1FA911846E97B8CD87C2E5D /* 📦 Check Pods Manifest.lock */,
+				268893F41D0F9FCF005F2EE5 /* Sources */,
+				268893F51D0F9FCF005F2EE5 /* Frameworks */,
+				268893F61D0F9FCF005F2EE5 /* Resources */,
+				7A9A3EA70003E5340D95C4C9 /* 📦 Embed Pods Frameworks */,
+				E7BB5244DC767C500BD81110 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengShareDemo;
+			productName = UMengShareDemo;
+			productReference = 268893F81D0F9FCF005F2EE5 /* UMengShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		268894101D0F9FD0005F2EE5 /* UMengShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268894281D0F9FD0005F2EE5 /* Build configuration list for PBXNativeTarget "UMengShareDemoTests" */;
+			buildPhases = (
+				2688940D1D0F9FD0005F2EE5 /* Sources */,
+				2688940E1D0F9FD0005F2EE5 /* Frameworks */,
+				2688940F1D0F9FD0005F2EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268894131D0F9FD0005F2EE5 /* PBXTargetDependency */,
+			);
+			name = UMengShareDemoTests;
+			productName = UMengShareDemoTests;
+			productReference = 268894111D0F9FD0005F2EE5 /* UMengShareDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2688941B1D0F9FD0005F2EE5 /* UMengShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2688942B1D0F9FD0005F2EE5 /* Build configuration list for PBXNativeTarget "UMengShareDemoUITests" */;
+			buildPhases = (
+				268894181D0F9FD0005F2EE5 /* Sources */,
+				268894191D0F9FD0005F2EE5 /* Frameworks */,
+				2688941A1D0F9FD0005F2EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2688941E1D0F9FD0005F2EE5 /* PBXTargetDependency */,
+			);
+			name = UMengShareDemoUITests;
+			productName = UMengShareDemoUITests;
+			productReference = 2688941C1D0F9FD0005F2EE5 /* UMengShareDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268893F01D0F9FCF005F2EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mopon;
+				TargetAttributes = {
+					268893F71D0F9FCF005F2EE5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3SG3638V3D;
+					};
+					268894101D0F9FD0005F2EE5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 268893F71D0F9FCF005F2EE5;
+					};
+					2688941B1D0F9FD0005F2EE5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 268893F71D0F9FCF005F2EE5;
+					};
+				};
+			};
+			buildConfigurationList = 268893F31D0F9FCF005F2EE5 /* Build configuration list for PBXProject "UMengShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268893EF1D0F9FCF005F2EE5;
+			productRefGroup = 268893F91D0F9FCF005F2EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268893F71D0F9FCF005F2EE5 /* UMengShareDemo */,
+				268894101D0F9FD0005F2EE5 /* UMengShareDemoTests */,
+				2688941B1D0F9FD0005F2EE5 /* UMengShareDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268893F61D0F9FCF005F2EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2688940B1D0F9FCF005F2EE5 /* LaunchScreen.storyboard in Resources */,
+				2657DB611D0FE63D00121CA4 /* a904aa2bb15e6ca02e796130d652f13f.gif in Resources */,
+				268894081D0F9FCF005F2EE5 /* Assets.xcassets in Resources */,
+				268894061D0F9FCF005F2EE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2688940F1D0F9FD0005F2EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2688941A1D0F9FD0005F2EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A9A3EA70003E5340D95C4C9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMengShareDemo/Pods-UMengShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1FA911846E97B8CD87C2E5D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BB5244DC767C500BD81110 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMengShareDemo/Pods-UMengShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268893F41D0F9FCF005F2EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2657DB5C1D0FC95600121CA4 /* YQUmengManager.m in Sources */,
+				268894031D0F9FCF005F2EE5 /* ViewController.m in Sources */,
+				268894001D0F9FCF005F2EE5 /* AppDelegate.m in Sources */,
+				2657DB681D0FFB9100121CA4 /* PWTSheetButton.m in Sources */,
+				268893FD1D0F9FCF005F2EE5 /* main.m in Sources */,
+				2657DB671D0FFB9100121CA4 /* PWTShareSheetView.m in Sources */,
+				2657DB5F1D0FD3C900121CA4 /* UIViewController+YQUMeng.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2688940D1D0F9FD0005F2EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268894161D0F9FD0005F2EE5 /* UMengShareDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268894181D0F9FD0005F2EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268894211D0F9FD0005F2EE5 /* UMengShareDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268894131D0F9FD0005F2EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268893F71D0F9FCF005F2EE5 /* UMengShareDemo */;
+			targetProxy = 268894121D0F9FD0005F2EE5 /* PBXContainerItemProxy */;
+		};
+		2688941E1D0F9FD0005F2EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268893F71D0F9FCF005F2EE5 /* UMengShareDemo */;
+			targetProxy = 2688941D1D0F9FD0005F2EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		268894041D0F9FCF005F2EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268894051D0F9FCF005F2EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		268894091D0F9FCF005F2EE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2688940A1D0F9FCF005F2EE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268894231D0F9FD0005F2EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		268894241D0F9FD0005F2EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268894261D0F9FD0005F2EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DCEFB53E52FD7734CB087F /* Pods-UMengShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UMengShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopon.UMengShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		268894271D0F9FD0005F2EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416AC19D0C240BA8F50EF3FE /* Pods-UMengShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UMengShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopon.UMengShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		268894291D0F9FD0005F2EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopon.UMengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMengShareDemo.app/UMengShareDemo";
+			};
+			name = Debug;
+		};
+		2688942A1D0F9FD0005F2EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopon.UMengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMengShareDemo.app/UMengShareDemo";
+			};
+			name = Release;
+		};
+		2688942C1D0F9FD0005F2EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopon.UMengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMengShareDemo;
+			};
+			name = Debug;
+		};
+		2688942D1D0F9FD0005F2EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopon.UMengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMengShareDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268893F31D0F9FCF005F2EE5 /* Build configuration list for PBXProject "UMengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268894231D0F9FD0005F2EE5 /* Debug */,
+				268894241D0F9FD0005F2EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268894251D0F9FD0005F2EE5 /* Build configuration list for PBXNativeTarget "UMengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268894261D0F9FD0005F2EE5 /* Debug */,
+				268894271D0F9FD0005F2EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268894281D0F9FD0005F2EE5 /* Build configuration list for PBXNativeTarget "UMengShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268894291D0F9FD0005F2EE5 /* Debug */,
+				2688942A1D0F9FD0005F2EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2688942B1D0F9FD0005F2EE5 /* Build configuration list for PBXNativeTarget "UMengShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2688942C1D0F9FD0005F2EE5 /* Debug */,
+				2688942D1D0F9FD0005F2EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268893F01D0F9FCF005F2EE5 /* Project object */;
+}
